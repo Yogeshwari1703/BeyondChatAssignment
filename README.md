@@ -51,9 +51,9 @@ src/
 ├── config/
 │   └── db.js               # MongoDB connection
 │
-├── scripts/
-│   ├── scrapeReferences.js # Google search + scraping
-│   └── processWithGemini.js# AI content generation
+├── scripts/with gemini
+│   ├── processArticles.js # update article content by processing top 2 searches in google with the help of gemini-2.5-flash llm model  
+│   └── scrapeBeyondChats.js # scrap 5 oldest articles from beyond chat
 │
 ├── routes/
 │   └── article.routes.js   # API routes
@@ -92,7 +92,7 @@ src/
 
 ## 🧪 Environment Variables
 
-Create a `.env` file in the root:
+Create a `.env` file in server/src folder:
 
 ```env
 PORT=5000
@@ -221,3 +221,4 @@ Backend | AI | Web Development
 This project is for **educational and research purposes only**.
 
 ---
+

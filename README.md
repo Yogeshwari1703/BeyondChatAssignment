@@ -58,6 +58,9 @@ src/
 ├── routes/
 │   └── article.routes.js   # API routes
 │
+├── controllers/  # API routes/
+│   └── articleController.js   # API routes
+│
 ├── models/
 │   └── Article.js          # Mongoose schema
 │
